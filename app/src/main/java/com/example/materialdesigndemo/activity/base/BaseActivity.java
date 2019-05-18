@@ -1,10 +1,10 @@
-package com.example.androidsystemuidemo.base;
+package com.example.materialdesigndemo.activity.base;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Window;
 
-import com.example.androidsystemuidemo.R;
+import com.example.materialdesigndemo.R;
 
 public class BaseActivity extends AppCompatActivity {
 
@@ -12,5 +12,6 @@ public class BaseActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
+
     }
 }

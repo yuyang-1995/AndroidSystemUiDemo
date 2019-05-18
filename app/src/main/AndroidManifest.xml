@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.androidsystemuidemo">
+    package="com.example.materialdesigndemo">
 
     <application
         android:allowBackup="true"
@@ -9,14 +9,50 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".base.BaseActivity"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.bs.BottomSheetsDemoActivity"></activity>
+        <activity android:name=".activity.collapsing.CollapsingDemoActivity" />
+        <activity android:name=".activity.bt.BarTabDemoActivity" />
+        <activity android:name=".activity.snackbar.SnackBarDemoActivity" />
+        <activity android:name=".activity.cardview.CardViewDemoActivity" />
+        <activity android:name=".activity.recycler.RecyclerDemoActivity" />
+        <activity android:name=".activity.listview.ListViewDemoActivity" />
+        <activity android:name=".activity.navigation.NavigationDrawerAnimationActivity" />
+        <activity android:name=".activity.navigation.CloudMusicActivity"
+            android:theme="@style/Theme.Translucent.Navigation"/>
+        <activity android:name=".activity.navigation.SimpleNavigationDrawerActivity"
+            android:theme="@style/Theme.Translucent.Navigation"
+            />
+        <activity android:name=".activity.navigation.SimpleDrawerActivity" />
+        <activity android:name=".activity.navigation.NavigationDemoActivity" />
+        <activity
+            android:name=".activity.toolbar.ZhiHuActivity"
+            android:label="@string/zhi_hu"
+            android:theme="@style/Theme.ZhiHu" />
+        <activity
+            android:name=".activity.toolbar.ToolBarActivity"
+            android:label="@string/tool_bar" />
+        <activity android:name=".activity.toolbar.ToolDemoActivity" />
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".activity.translucent.ImageTranslucentBarActivity"
+            android:label="@string/image_translucent_bar"
+            android:theme="@style/ImageTranslucentTheme" />
+        <activity
+            android:name=".activity.translucent.BestTranslucentBarActivity"
+            android:theme="@style/ColorTranslucentTheme" />
+        <activity
+            android:name=".activity.translucent.ColorTranslucentBarActivity"
+            android:label="@string/color_translucent_bar"
+            android:theme="@style/ColorTranslucentTheme" />
+        <activity android:name=".activity.translucent.TranslucentDemoActivity" />
+
+
     </application>
 
 </manifest>

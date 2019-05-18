@@ -1,4 +1,4 @@
-package com.example.androidsystemuidemo;
+package com.example.materialdesigndemo;
 
 import org.junit.Test;
 
